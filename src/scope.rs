@@ -1,7 +1,9 @@
+#[derive(Debug)]
 pub enum Level {
     Amateur,
     Professional,
 }
+#[derive(Debug)]
 pub enum FoodType {
     Asian,
     Chinese,
@@ -12,6 +14,7 @@ pub enum FoodType {
     Fastfood,
     Other,
 }
+#[derive(Debug)]
 pub enum EstabType {
     Restaurant,
     Bar,
@@ -20,6 +23,7 @@ pub enum EstabType {
     Healthy,
     Other(String),
 }
+#[derive(Debug)]
 pub struct Establishment {
     pub name: &'static str,
     pub cnpj: &'static str,
